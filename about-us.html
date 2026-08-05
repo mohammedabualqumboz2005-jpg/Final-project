@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عصر التحول - من نحن</title>
+    <link rel="icon" href="images/logo form.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+    
+    <header class="bg-light border-bottom border-secondary-subtle">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+
+              
+                <a class="navbar-brand m-0 p-0" href="index.html">
+                    <img src="images/logo form.png" alt="عصر التحول" height="100"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                    <div class="border border-dark border-2 px-2 py-1 rounded-2 text-center" style="display:none;">
+                        <span class="fw-bold small d-block text-dark">عصر التحول</span>
+                    </div>
+                </a>
+
+              
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                    <ul class="navbar-nav gap-lg-4 text-center my-3 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link fw-bold active pb-3" href="about-us.html" style="color: #20B2AA;">
+                                من نحن
+                            </a>
+                           
+                            <span class="position-absolute bottom-0 start-50 translate-middle-x rounded-pill"
+                                style="width: 25px; height: 3px; background-color: #20B2AA;"></span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="contact-us.html">تواصل معنا</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                   
+                    <div class="dropdown">
+                        <a class="text-decoration-none d-flex align-items-center gap-2" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" stroke="#2D68C4" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+
+                          
+                            <span class="fw-bold" style="color: #2D68C4; font-size: 15px;">AR</span>
+
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="#2D68C4" stroke-width="2.5" stroke-linecap="round" fill="none"
+                                stroke="#" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="https://assar.sa/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png"
+                                        alt="#"> EN</a></li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="https://assar.sa/wp-content/plugins/translatepress-multilingual/assets/images/flags/ar.png"
+                                        alt="#"> AR </a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <button type="button" class="btn rounded-pill px-4 py-2 fw-bold text-white btn-login"
+                        data-bs-toggle="modal" data-bs-target="#loginModal" style="background-color: #438A95;">
+                        تسجيل الدخول
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+   
+
+   
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4 p-4">
+                <div class="modal-body text-center">
+
+                    <div class="box mx-auto mb-3">
+                        <img src="images/logo form.png" alt="عصر التحول" height="50">
+                    </div>
+
+                    <h4 class="fw-bold mb-1 text-dark">تسجيل الدخول إلى الحساب</h4>
+                    <p class="text-muted small mb-4">أدخل البريد الإلكتروني أو رقم الهاتف وكلمة المرور</p>
+
+                    <form class="text-start">
+                        <div class="mb-3">
+                            <label class="form-label small text-muted fw-bold">عنوان البريد الإلكتروني</label>
+                            <input type="email" class="form-control form-control-lg bg-light border-0 fs-6"
+                                placeholder="البريد الإلكتروني">
+                        </div>
+
+                        <div class="mb-2">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <label class="form-label small text-muted fw-bold mb-0">كلمة المرور</label>
+                                <a href="#" class="small text-decoration-none" style="color: #438A95;"
+                                    data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">هل نسيت كلمة
+                                    المرور؟</a>
+                            </div>
+                            <div class="position-relative">
+                                <input type="password"
+                                    class="form-control form-control-lg bg-light border-0 fs-6 ps-5 password-input"
+                                    placeholder="••••••••">
+                                <i
+                                    class="bi bi-eye-slash position-absolute top-50 start-0 translate-middle-y ms-3 text-muted cursor-pointer fs-5 toggle-password"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="rememberMe" checked>
+                            <label class="form-check-label small text-muted" for="rememberMe">تذكر كلمة المرور</label>
+                        </div>
+
+                        <button type="button" class="btn w-100 py-2.5 fw-bold rounded-3 mb-3 text-white"
+                            style="background-color: #438A95;">تسجيل الدخول</button>
+
+                        <p class="small text-muted text-center mb-3">ليس لديك حساب؟ <a href="#"
+                                class="fw-bold text-decoration-none" style="color: #438A95;" data-bs-toggle="modal"
+                                data-bs-target="#registerModal">إنشاء حساب</a></p>
+
+                        <div class="d-flex gap-2">
+                            <button type="button"
+                                class="btn btn-social border w-50 py-2 small d-flex align-items-center justify-content-center gap-2 rounded-3 bg-white">
+                                <i class="bi bi-facebook text-primary fs-5"></i>
+                                <span class="text-dark fw-bold" style="font-size: 11px;">فيسبوك</span>
+                            </button>
+                            <button type="button"
+                                class="btn btn-social border w-50 py-2 small d-flex align-items-center justify-content-center gap-2 rounded-3 bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+                                    <path fill="#EA4335"
+                                        d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                                    <path fill="#4285F4"
+                                        d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                                    <path fill="#FBBC05"
+                                        d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                                    <path fill="#34A853"
+                                        d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.46-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                                </svg>
+                                <span class="text-dark fw-bold" style="font-size: 11px;">Google</span>
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4 p-4">
+                <div class="modal-body text-center">
+                    <div class="box mx-auto mb-3">
+                        <img src="images/logo form.png" alt="عصر التحول" height="50">
+                    </div>
+                    <h4 class="fw-bold mb-1 text-dark">إنشاء حساب جديد</h4>
+                    <p class="text-muted small mb-4">أدخل بياناتك لإنشاء حساب جديد</p>
+                    <form class="text-start">
+                        <div class="mb-2">
+                            <label class="form-label small text-muted fw-bold">الاسم</label>
+                            <input type="text" class="form-control bg-light border-0 fs-6" placeholder="الاسم">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label small text-muted fw-bold">رقم الهاتف</label>
+                            <input type="tel" class="form-control bg-light border-0 fs-6" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label small text-muted fw-bold">البريد الإلكتروني</label>
+                            <input type="email" class="form-control bg-light border-0 fs-6"
+                                placeholder="user.user@gmail.com">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label small text-muted fw-bold">كلمة المرور</label>
+                            <div class="position-relative">
+                                <input type="password" class="form-control bg-light border-0 fs-6 ps-5 password-input"
+                                    placeholder="••••••••">
+                                <i
+                                    class="bi bi-eye-slash position-absolute top-50 start-0 translate-middle-y ms-3 text-muted cursor-pointer fs-5 toggle-password"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="btn w-100 py-2.5 fw-bold rounded-3 mb-3 text-white"
+                            style="background-color: #438A95;" data-bs-toggle="modal" data-bs-target="#otpModal">إنشاء
+                            الحساب</button>
+                        <p class="small text-muted text-center mb-3">لديك حساب بالفعل؟ <a href="#"
+                                class="fw-bold text-decoration-none" style="color: #438A95;" data-bs-toggle="modal"
+                                data-bs-target="#loginModal">تسجيل الدخول</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4 p-4">
+                <div class="modal-body text-center">
+                    <img src="images/logo form.png" alt="عصر التحول" height="50" class="mb-3">
+                    <h4 class="fw-bold mb-2 text-dark">نسيت كلمة المرور</h4>
+                    <p class="text-muted small mb-4">قم بكتابة الإيميل الذي قمت بالتسجيل به، لإرسال رابط تغيير كلمة
+                        المرور إليه.</p>
+                    <form class="text-start">
+                        <div class="mb-4">
+                            <label class="form-label small text-muted fw-bold">البريد الإلكتروني</label>
+                            <input type="email" class="form-control bg-light border-0 fs-6 text-end"
+                                placeholder="user.user@gmail.com">
+                        </div>
+                        <button type="button" class="btn w-100 py-2.5 fw-bold rounded-3 text-white"
+                            style="background-color: #438A95;" data-bs-toggle="modal"
+                            data-bs-target="#otpModal">التالي</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="otpModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4 p-4">
+                <div class="modal-body text-center">
+                    <img src="images/logo form.png" alt="عصر التحول" height="50" class="mb-3">
+                    <h4 class="fw-bold mb-2 text-dark">رمز التحقق</h4>
+                    <p class="text-muted small mb-4">أدخل رمز التحقق المرسل إلى إيميلك</p>
+                    <form>
+                        <div class="d-flex justify-content-center gap-2 dir-ltr mb-4">
+                            <input type="text" maxlength="1"
+                                class="form-control text-center bg-light border-0 fs-5 fw-bold otp-input" value="0">
+                            <input type="text" maxlength="1"
+                                class="form-control text-center bg-light border-0 fs-5 fw-bold otp-input" value="8">
+                            <input type="text" maxlength="1"
+                                class="form-control text-center bg-light border-0 fs-5 fw-bold otp-input" value="7">
+                            <input type="text" maxlength="1"
+                                class="form-control text-center bg-light border-0 fs-5 fw-bold otp-input" value="9">
+                        </div>
+                        <button type="button" class="btn w-100 py-2.5 fw-bold rounded-3 mb-3 text-white"
+                            style="background-color: #438A95;" data-bs-toggle="modal"
+                            data-bs-target="#resetPasswordModal">المتابعة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="resetPasswordModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4 p-4">
+                <div class="modal-body text-center">
+                    <img src="images/logo form.png" alt="عصر التحول" height="50" class="mb-3">
+                    <h4 class="fw-bold mb-2 text-dark">تعيين كلمة المرور الجديدة</h4>
+                    <p class="text-muted small mb-4">قم بتعيين كلمة المرور الجديدة لحسابك حتى تتمكن من تسجيل الدخول</p>
+                    <form class="text-start">
+                        <div class="mb-3">
+                            <label class="form-label small text-muted fw-bold">كلمة المرور الجديدة</label>
+                            <div class="position-relative">
+                                <input type="password" class="form-control bg-light border-0 fs-6 ps-5 password-input"
+                                    placeholder="••••••••">
+                                <i
+                                    class="bi bi-eye-slash position-absolute top-50 start-0 translate-middle-y ms-3 text-muted cursor-pointer fs-5 toggle-password"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="btn w-100 py-2.5 fw-bold rounded-3 text-white"
+                            style="background-color: #438A95;" data-bs-dismiss="modal">تأكيد</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <br>
+
+
+    <main>
+
+
+        <section class="strategy-section py-5 my-4">
+            <div class="container-fluid px-0">
+                <div
+                    class="strategy-banner text-center text-white rounded-4 position-relative overflow-hidden mx-auto d-flex flex-column justify-content-center">
+
+                    <!-- محتوى القسم -->
+                    <div class="position-relative z-2 py-5 px-3" data-aos="fade-up" data-aos-duration="2000">
+                        <span class="strategy-subtitle d-block mb-2">من
+                            نحن</span>
+                        <h2 class="strategy-title fw-bold mb-3" data-aos="fade-up" data-aos-duration="2000">حين تلتقي
+                            الإستراتيجية بالنجاح</h2>
+                        <p class=" strategy-desc mx-auto mb-0" data-aos="fade-up" data-aos-duration="2000">
+                            نحن شركاؤك في تحقيق التحول الرقمي، نصمم لك حلولاً مبتكرة تلبي احتياجاتك وتدعم نجاحك.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+       
+        <section class="about-section py-5 mt-5">
+            <div class="container py-4">
+                <div class="row align-items-center g-4">
+
+                    <div class="col-lg-6 text-center">
+                        <div class="position-relative d-inline-block w-100" data-aos="fade-left"
+                            data-aos-duration="2000">
+                            <img src="images/1e02b0e4ffb1e39bd20dbecfd74749654d951791.jpg" alt="عصر التحول"
+                                class="about-img img-fluid rounded-4 shadow-lg w-100 border border-secondary-subtle">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 text-end" data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="about-title fw-bold mb-3">من نحن؟</h2>
+                        <p class="about-desc text-secondary mb-4 lh-lg">
+                            في عصر التحول، نحن أكثر من مجرد مزود خدمات تقنية! نحن شريكك في تحقيق
+                            التحول الرقمي بطرق
+                            مبتكرة
+                            وفعّالة. نقدم حلولاً شاملة تجمع بين الإبداع، الخبرة، والتقنيات الحديثة
+                            لتحويل أفكارك إلى
+                            واقع ملموس.
+                        </p>
+
+                      
+                        <div class="row g-3">
+
+                     
+                            <div class="col-md-4">
+                                <div
+                                    class="about-card card border border-secondary-subtle shadow-sm rounded-4 p-3 h-100 text-center bg-white">
+                                    <div class="mb-3">
+                                        <div
+                                            class="about-icon-box d-inline-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="bi bi-award fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="fw-bold mb-2 text-dark">خبرة مميزة</h5>
+                                    <p class="text-muted small lh-base mb-0">
+                                        فريقنا يضم خبراء لديهم سنوات من الخبرة في مجالات التقنية
+                                        المختلفة، مما يضمن
+                                        تقديم حلول
+                                        مبتكرة ومناسبة لاحتياجاتك.
+                                    </p>
+                                </div>
+                            </div>
+
+                        
+                            <div class="col-md-4">
+                                <div
+                                    class="about-card card border border-secondary-subtle shadow-sm rounded-4 p-3 h-100 text-center bg-white">
+                                    <div class="mb-3">
+                                        <div
+                                            class="about-icon-box d-inline-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="bi bi-star fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="fw-bold mb-2 text-dark">خدمات متكاملة</h5>
+                                    <p class="text-muted small lh-base mb-0">
+                                        نقدم مجموعة متكاملة من الخدمات التقنية تشمل تصميم المواقع،
+                                        البرمجة، تطبيقات
+                                        الجوال،
+                                        الاستضافة، وحلول الأمن السيبراني.
+                                    </p>
+                                </div>
+                            </div>
+
+                     
+                            <div class="col-md-4">
+                                <div
+                                    class="about-card card border border-secondary-subtle shadow-sm rounded-4 p-3 h-100 text-center bg-white">
+                                    <div class="mb-3">
+                                        <div
+                                            class="about-icon-box d-inline-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="bi bi-headset fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="fw-bold mb-2 text-dark">دعم مستمر</h5>
+                                    <p class="text-muted small lh-base mb-0">
+                                        نؤمن بأهمية بناء علاقات طويلة الأمد مع عملائنا، لذا نقدم
+                                        دعماً فنياً متواصلاً
+                                        لضمان
+                                        استمرارية ونجاح مشاريعك.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <br>
+
+        <section class="section-yourname" data-aos="fade-left" data-aos-duration="500">
+            <div class="container">
+                <h4>رؤيتنا</h4>
+                <p>قيادة مستقبل التحول الرقمي في المنطقة من خلال تقديم خدمات تقنية مميزة ومبتكرة
+                    <br> تدعم الأعمال وتواكب التطورات التقنية
+                    المتسارعة.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="section-row">
+            <div class="container">
+                <div class="images" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/d441dfacf246929221fa73edab9cc66db66b47b3  masssege.gif" alt="masssege#">
+                </div>
+                <div class="text" data-aos="fade-right" data-aos-duration="2000">
+                    <h3>رسالتنا</h3>
+                    <p>تمكين عملائنا من تحقيق أهدافهم الرقمية باستخدام تقنيات حديثة، واستراتيجيات
+                        فعّالة، <br> وحلول
+                        مصممة خصيصًا لتلبية احتياجاتهم.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+     
+        <section class="values-section py-5">
+            <div class="container py-4">
+
+        
+                <div class="text-center mb-5">
+                    <h2 class="values-title fw-bold mb-3" data-aos="fade-up" data-aos-duration="3000">قيمنا</h2>
+                    <p class="values-subtitle mx-auto" data-aos="fade-up" data-aos-duration="3000">
+                        نؤمن بأن القيم الأساسية هي حجر الأساس لنجاحنا، وهي التي توجه عملنا
+                        <br> وتضمن
+                        تقديم أفضل تجربة
+                        لعملائنا.
+                    </p>
+                </div>
+
+              
+                <div class="values-grid-wrapper position-relative mx-auto">
+
+                    <div class="row g-4 justify-content-center">
+
+                        <div class="col-lg-3 col-md-5">
+                            <div class="value-card  p-4 rounded-4">
+                                <div class="hide mb-3">
+                                    <img src="images/Group (1).png" alt="الالتزام" class="value-icon">
+                                </div>
+                                <h4 class="value-card-title fw-bold mb-2">الالتزام</h4>
+                                <p class="value-card-text mb-0">
+                                    نلتزم بتنفيذ المشاريع وفق الجدول الزمني المتفق عليه مع الحفاظ
+                                    على أعلى الجودة.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                   
+                    <div class="row g-4 align-items-center justify-content-center my-values-middle-row">
+
+                      
+                        <div class="col-lg-3 col-md-5 value-side-card" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="value-card  p-4 rounded-4">
+                                <div class="hide mb-3">
+                                    <img src="images/quality (3) 1.png" alt="الجودة" class="value-icon">
+                                </div>
+                                <h4 class="value-card-title fw-bold mb-2">الجودة</h4>
+                                <p class="value-card-text mb-0">
+                                    نحرص على تقديم خدمات ومنتجات بأعلى معايير الجودة لضمان تحقيق رضا
+                                    عملائنا.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5">
+                            <div class="value-card  p-4 rounded-4">
+                                <div class="hide mb-3">
+                                    <img src="images/transparency 1.png" alt="الشفافية" class="value-icon">
+                                </div>
+                                <h4 class="value-card-title fw-bold mb-2">الشفافية</h4>
+                                <p class="value-card-text mb-0">
+                                    نتعامل بوضوح وصدق في جميع مراحل العمل، مما يعزز الثقة مع عملائنا
+                                    وشركائنا.
+                                </p>
+                            </div>
+                        </div>
+
+                     
+                        <div class="col-lg-3 col-md-5 value-side-card" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="value-card  p-4 rounded-4">
+                                <div class=" hide mb-3">
+                                    <img src="images/idea 1.png" alt="الابتكار" class="value-icon">
+                                </div>
+                                <h4 class="value-card-title fw-bold mb-2">الابتكار</h4>
+                                <p class="value-card-text mb-0">
+                                    ابتكار حلول تقنية تواكب أحدث التطورات وتلبي احتياجات عملائنا
+                                    بشكل فعّال ومميز.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-looking">
+            <div class="container">
+                <div class="wrapper-you">
+                    <h3>نماذج من نجاحنا التقني</h3>
+                    <p>منصات مبتكرة وحلول فعّالة تخدم المجتمع وتحقق التميز.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="portfolio-section py-1 " dir="rtl">
+            <div class="container py-4">
+                <div class="row g-4 align-items-stretch">
+
+               
+
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card project-card border-0 shadow-sm rounded-4 p-4 bg-white h-100 d-flex flex-column">
+                            <div class="project-img-wrapper rounded-3 mb-4 position-relative">
+                                <img src="images/6e063e7071a64f9815ebad28360c70247f232da8.png" alt="منصة بازار"
+                                    class="project-img" style="--scroll-duration: 4s;">
+                                <div class="img-overlay position-absolute top-0 start-0 w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-2 px-1">
+                                <h3 class="fw-bold text-dark fs-4 mb-0 project-title">منصة بازار
+                                </h3>
+                                <div class="arrow-icon-box d-flex align-items-center justify-content-center">
+
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M17 17L7 7M7 7H17M7 7V17" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+             
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card project-card border-0 shadow-sm rounded-4 p-4 bg-white h-100 d-flex flex-column">
+                            <div class="project-img-wrapper rounded-3 mb-4 position-relative">
+                                <img src="images/ece156e2899eb378c0b40b58dcb5bd7689cbaf9e person.png"
+                                    alt="منصة نماء الخريف" class="project-img" style="--scroll-duration: 4.5s;">
+                                <div class="img-overlay position-absolute top-0 start-0 w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-2 px-1">
+                                <h3 class="fw-bold text-dark fs-4 mb-0 project-title">منصة نماء
+                                    الخريف</h3>
+                                <div class="arrow-icon-box d-flex align-items-center justify-content-center">
+                                
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M17 17L7 7M7 7H17M7 7V17" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+             
+
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card project-card border-0 shadow-sm rounded-4 p-4 bg-white h-100 d-flex flex-column">
+                            <div class="project-img-wrapper rounded-3 mb-4 position-relative">
+                                <img src="images/114aa5ae282da249e8ba2dac3c2310b9adc11be2.png" alt="منصة ودق"
+                                    class="project-img" style="--scroll-duration: 4s;">
+                                <div class="img-overlay position-absolute top-0 start-0 w-100 h-100">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-2 px-1">
+                                <h3 class="fw-bold text-dark fs-4 mb-0 project-title">منصة ودق</h3>
+                                <div class="arrow-icon-box d-flex align-items-center justify-content-center">
+
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M17 17L7 7M7 7H17M7 7V17" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-item">
+            <div class="container">
+                <div class="text-me">
+                    <h3>شركاؤنا في النجاح</h3>
+                    <p>نعتز بتعاوننا مع مجموعة مميزة من العملاء الذين وثقوا بنا لتحقيق أهدافهم
+                        الرقمية.</p>
+                </div>
+            </div>
+
+
+            <div class="container py-5">
+                <div class="tech-circles-wrapper position-relative">
+
+                    
+                    <div class="row align-items-center justify-content-between mb-4">
+                        <div class="col-auto text-center">
+
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-3"><img
+                                    src="images/azure-original-wordmark logo.png" alt="Azure" class="tech-logo"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-2"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-3"><img
+                                    src="images/Norton logo.png" alt="Enom" class="tech-logo"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-1"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-2"><img
+                                    src="images/godaddy logo.png" alt="GoDaddy" class="tech-logo">
+                            </div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-3"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-1"><img
+                                    src="images/Enom-logo logo.png" alt="Norton" class="tech-logo">
+                            </div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-2"></div>
+                        </div>
+                        <div class="col-auto text-center">
+
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-1"><img
+                                    src="images/android logo.png" alt="Android" class="tech-logo">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row align-items-center justify-content-between mt-5">
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-2"><img
+                                    src="images/Microsoft logo.png" alt="cPanel" class="tech-logo">
+                            </div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-3"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-1"><img
+                                    src="images/aws logo.png" alt="DirectAdmin" class="tech-logo">
+                            </div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-2"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-3"><img
+                                    src="images/Comodo logo.png" alt="SSL" class="tech-logo"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-1"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-2"><img
+                                    src="images/DirectAdminLogo logo.png" alt="AWS" class="tech-logo"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle empty-circle pulse-fast-3"></div>
+                        </div>
+                        <div class="col-auto text-center">
+                            <div class="tech-circle content-circle shadow-sm pulse-fast-1"><img
+                                    src="images/CPanel_logo logo.png" alt="Microsoft" class="tech-logo"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="cta-section position-relative overflow-hidden py-5" dir="rtl">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center position-relative z-index-2">
+
+                        <h2 class="cta-title fw-bold mb-3 ">هل أنت جاهز للبدء معنا</h2>
+
+                   
+                        <p class="cta-subtitle mb-4">
+                            سواء كنت بدأت للتو أو تتطلع إلى تعميق معرفتك، فنحن هنا
+                            <br> لإرشادك في كل خطوة على الطريق.
+                        </p>
+
+                       
+                        <div class="cta-form-wrapper mx-auto mb-4" style="max-width: 500px;">
+                            <div class="input-group bg-white rounded-3 p-1 shadow-lg align-items-center">
+                                <span class="input-group-text border-0 bg-transparent text-muted px-3">
+                                    <i class="far fa-envelope fs-5"></i>
+                                </span>
+                                <input type="email"
+                                    class="form-control border-0 bg-transparent text-end shadow-none px-2"
+                                    placeholder="example@example.com">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center gap-3 flex-wrap">
+                            <a href="#" class="btn btn-light rounded-pill px-5 py-3 fw-bold cta-btn-solid">
+                                إشترك الآن
+                            </a>
+                            <a href="#" class="btn btn-light rounded-pill px-5 py-3 fw-bold cta-btn-solid">
+                                تواصل معنا
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <footer class="site-footer">
+        <div class="footer-texture"></div>
+        <div class="footer-inner">
+            <div class="row gx-0">
+
+         
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="logo-row">
+                        <div class="logo-text">
+                       
+                            <img src="images/Group (1)  logo2.png" alt="">
+                        </div>
+                        <div class="logo-mark"></div>
+                    </div>
+                    <p class="about-text">
+                        عصر تحول التقنية المعلومات
+                        <br> شبكة الموثوق نحو مستقبل رقمي مبتكر
+                        حيث نجمع بين الإبداع والتقنية لتحقيق رؤيتك.
+                    </p>
+                    <div class="social-icons">
+                        <a target="_blank" class="linkedin"
+                            href="https://www.linkedin.com/in/assar-al-tahwol-1733a3354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a target=""
+                            href="https://www.instagram.com/assaraltahwol?utm_source=qr&amp;igsh=aTY0NWczMzA4cWcy"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://x.com/ASSAATAHWOL?t=LndnRVpNLcvSF_vT2n75Aw&s=09"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+  
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">روابط
+                        سريعة
+                    </div>
+                    <ul class="quick-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about-us.html">من نحن</a></li>
+                        <li><a href="contact-us.html">تواصل معنا</a></li>
+                        <li><a href="Return Policy.html">سياسة الاسترجاع</a></li>
+                        <li><a href="privacy policy.html">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+
+    
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">تواصل معنا
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>000 000 0000</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>contact@assar.sa</span>
+                    </div>
+                    <div class="contact-item contact-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            الرياض - الورود - شارع 4229 -
+                            شارع 18 نوفمبر - بناء رقم 1/1665 -
+                            الطابق الرابع - رقم المكتب 44
+                        </span>
+                    </div>
+                </div>
+
+            
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">تفاصيل
+                        الدفع
+                    </div>
+                    <div class="pay-highlight">ادفع بسهوله في أي مكان</div>
+                    <p class="pay-text">
+                        قم بالتحويل بسهولة باستخدام المعلومات البنكية أدناه
+                        لإتمام معاملتك بكل أمان.
+                    </p>
+                    <div class="iban-box">
+                        <img src="images/qr-code 1.png" alt="QR Code">
+                        <div>
+                            <div class="iban-label">رقم الآيبان</div>
+                            <div class="iban-number">SA4105000068205980611000</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © عصر التحول 2025 . جميع الحقوق محفوظة لمؤسسة عصر التحول
+        </div>
+    </footer>
+
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit profile | عصر التحول </title>
+    <link rel="icon" href="images/logo form.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+
+           
+            <div class="logo-brand">
+                <img src="images/logo form.png" alt="عصر التحول" style="height: 70px;">
+            </div>
+
+           
+            <nav class="d-none d-md-flex align-items-center gap-4">
+                <a href="index.html" class="text-dark text-decoration-none">الرئيسية</a>
+                <a href="about-us.html" class="text-dark text-decoration-none">من نحن</a>
+                <a href="contact-us.html" class="text-dark text-decoration-none fw-500">تواصل معنا</a>
+            </nav>
+
+         
+            <div class="d-flex align-items-center gap-3">
+               
+                <div class="dropdown">
+                    <a href="#" class="text-decoration-none d-flex align-items-center gap-1 dropdown-toggle"
+                        data-bs-toggle="dropdown" style="color: #3a70ab;">
+                        <i class="fa-solid fa-globe" style="color: #3a70ab;"></i>
+                        <span style="color: #3a70ab; font-weight: 500;">AR</span>
+                    </a>
+                    <ul class="dropdown-menu shadow-sm border-0 text-start"
+                        style="border-radius: 12px; min-width: 90px; left: 0; right: auto;">
+                        <li><a class="dropdown-item py-2 text-start" href="#"
+                                style="color: #3a70ab; font-weight: 500;">EN</a></li>
+                        <li><a class="dropdown-item py-2 text-start" href="#"
+                                style="color: #3a70ab; font-weight: 500;">AR</a></li>
+                    </ul>
+                </div>
+
+               
+                <a href="#" class="custom-account-btn"
+                    style="background: linear-gradient(135deg, #3a70ab, #5cba9d); border: none; border-radius: 50px; color: #fff; padding: 10px 24px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none;">
+                    <span>حسابي</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.85rem;"></i>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <section class="profile-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-start">
+
+               
+                <div class="col-lg-9 order-2 order-lg-1">
+                    <div class="card border-0 shadow-sm p-4" style="border-radius: 16px; background-color: #ffffff;">
+                        <form id="profileForm">
+                       
+                            <div class="mb-3">
+                                <label class="form-label d-block text-end text-secondary mb-1"
+                                    style="font-size: 0.95rem;">الإسم</label>
+                                <input type="text" id="nameField" class="form-control" value="شيماء ناجي">
+                            </div>
+
+                       
+                            <div class="mb-3">
+                                <label class="form-label d-block text-end text-secondary mb-1"
+                                    style="font-size: 0.95rem;">البريد الإلكتروني</label>
+                                <input type="email" id="emailField" class="form-control" value="user.user@gmail.com">
+                            </div>
+
+                         
+                            <div class="mb-3">
+                                <label class="form-label d-block text-end text-secondary mb-1"
+                                    style="font-size: 0.95rem;">رقم الهاتف</label>
+                                <input type="text" id="phoneField" class="form-control" value="000 000 0000">
+                            </div>
+
+                     
+                            <div class="mb-3">
+                                <label class="form-label d-block text-end text-secondary mb-1"
+                                    style="font-size: 0.95rem;">كلمة المرور</label>
+                                <div class="password-container position-relative">
+                                    <input type="password" id="passwordField" class="form-control" value="254861">
+                                    <i class="fa-regular fa-eye-slash password-toggle-icon" id="togglePassword"
+                                        style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); cursor: pointer; color: #6c757d;"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+          
+                <div class="col-lg-3 mb-4 mb-lg-0 order-1 order-lg-2 d-flex flex-column gap-3">
+                    <!-- زر حفظ التعديلات -->
+                    <button type="button" id="saveBtn"
+                        class="btn w-100 d-flex align-items-center justify-content-center py-3 shadow-sm"
+                        style="background: linear-gradient(135deg, #3a70ab, #5cba9d); border: none; border-radius: 58px; color: #fff; font-size: 1.1rem; font-weight: 500;">
+                        حفظ التعديلات
+                    </button>
+
+                    <button type="button" id="cancelBtn"
+                        class="btn w-100 d-flex align-items-center justify-content-center py-3 shadow-sm bg-white"
+                        style="border: 1px solid #3a70ab; border-radius: 58px; color: #3a70ab; font-size: 1.1rem; font-weight: 500;">
+                        إلغاء
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer">
+        <div class="footer-texture"></div>
+        <div class="footer-inner">
+            <div class="row gx-0">
+
+              
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="logo-row">
+                        <div class="logo-text">
+
+                            <img src="images/Group (1)  logo2.png" alt="">
+                        </div>
+                        <div class="logo-mark"></div>
+                    </div>
+                    <p class="about-text">
+                        عصر تحول التقنية المعلومات
+                        <br> شبكة الموثوق نحو مستقبل رقمي مبتكر
+                        حيث نجمع بين الإبداع والتقنية لتحقيق رؤيتك.
+                    </p>
+                    <div class="social-icons">
+                        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/assar-al-tahwol-1733a3354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/assaraltahwol?utm_source=qr&amp;igsh=aTY0NWczMzA4cWcy"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://x.com/ASSAATAHWOL?t=LndnRVpNLcvSF_vT2n75Aw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+              
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">روابط
+                        سريعة
+                    </div>
+                    <ul class="quick-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about-us.html">من نحن</a></li>
+                        <li><a href="contact-us.html">تواصل معنا</a></li>
+                        <li><a href="Return Policy.html">سياسة الاسترجاع</a></li>
+                        <li><a href="privacy policy.html">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+
+           
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">تواصل معنا
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>000 000 0000</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>contact@assar.sa</span>
+                    </div>
+                    <div class="contact-item contact-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            الرياض - الورود - شارع 4229 -
+                            شارع 18 نوفمبر - بناء رقم 1/1665 -
+                            الطابق الرابع - رقم المكتب 44
+                        </span>
+                    </div>
+                </div>
+
+     
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <div class="footer-title"
+                        style="display: inline-block; padding-bottom: 8px; border-bottom: 2px solid #ffffff;">تفاصيل
+                        الدفع
+                    </div>
+                    <div class="pay-highlight">ادفع بسهوله في أي مكان</div>
+                    <p class="pay-text">
+                        قم بالتحويل بسهولة باستخدام المعلومات البنكية أدناه
+                        لإتمام معاملتك بكل أمان.
+                    </p>
+                    <div class="iban-box">
+                        <img src="images/qr-code 1.png" alt="QR Code">
+                        <div>
+                            <div class="iban-label">رقم الآيبان</div>
+                            <div class="iban-number">SA4105000068205980611000</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © عصر التحول 2025 . جميع الحقوق محفوظة لمؤسسة عصر التحول
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
